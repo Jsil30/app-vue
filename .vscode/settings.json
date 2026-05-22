@@ -1,0 +1,5 @@
+{
+  "typescript.tsdk": "my-vue-app/node_modules/typescript/lib",
+  "vue.server.hybridMode": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on"
+}
