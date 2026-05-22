@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Dark mode variables (default) */
+.dark {
+  --bg: #0f0f13;
+  --text: #f0f0f5;
+  --btn-bg: #1e1e2a;
+  --btn-hover: #2a2a3a;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+/* Light mode variables */
+.page:not(.dark) {
+  --bg: #f5f5f7;
+  --text: #111118;
+  --btn-bg: #ffffff;
+  --btn-hover: #e8e8f0;
+  --border: rgba(0, 0, 0, 0.1);
+}
