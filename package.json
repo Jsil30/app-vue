@@ -1,0 +1,8 @@
+{
+  "name": "app-vue-root",
+  "private": true,
+  "scripts": {
+    "dev": "cd my-vue-app && node my-vue-app/node_modules/vite/bin/vite.js",
+    "start": "cd my-vue-app && node my-vue-app/node_modules/vite/bin/vite.js"
+  }
+}
