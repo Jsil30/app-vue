@@ -132,7 +132,7 @@ const links = [
   justify-content: center;
   gap: 0.6rem;
   padding: 0.85rem 1.5rem;
-  border-radius: 0.75rem;
+  border-radius: 0;
   background: var(--btn-bg);
   color: var(--text);
   text-decoration: none;
